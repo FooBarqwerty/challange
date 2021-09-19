@@ -33,8 +33,13 @@
 	<dependency>
 		<groupId>com.microsoft.sqlserver</groupId>
 		<artifactId>mssql-jdbc</artifactId>
-		<version>9.4.0.jre16</version>
+		<version>9.4.0.jre11</version>
 	</dependency>
+    <dependency>
+      <groupId>commons-validator</groupId>
+      <artifactId>commons-validator</artifactId>
+      <version>1.7</version>
+    </dependency>
   </dependencies>
 
   <build>
